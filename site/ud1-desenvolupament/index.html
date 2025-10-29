@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>UD1 - ED — Entorns de Desenvolupament</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "UD1";
+        var mkdocs_page_input_path = "ud1-desenvolupament.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> ED — Entorns de Desenvolupament
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Inici</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">UD1</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#objectius">Objectius</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tipus-de-software">Tipus de software</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cicle-de-vida-resum">Cicle de vida (resum)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#models-de-desenvolupament">Models de desenvolupament</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#recursos-exercicis">Recursos / exercicis</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ud2-introduccio-git/">UD2</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ud3-diagrama-classes/">UD3</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ud4-git-avancat/">UD4</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ud5-prova-programari/">UD5</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ud6-diagrames-uml/">UD6</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ud7-ramificacio/">UD7</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ud8-proves-arquitectura/">UD8</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">ED — Entorns de Desenvolupament</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">UD1</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="ud1-desenvolupament-de-programari">UD1 — Desenvolupament de programari<a class="headerlink" href="#ud1-desenvolupament-de-programari" title="Permanent link">&para;</a></h1>
+<h2 id="objectius">Objectius<a class="headerlink" href="#objectius" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Comprendre el desenvolupament de programari i tipus de software.</li>
+<li>Conèixer el cicle de vida: anàlisi, disseny, codificació, proves, manteniment.</li>
+<li>Identificar models de procés (cascada, V, espiral, prototips, àgils).</li>
+</ul>
+<h2 id="tipus-de-software">Tipus de software<a class="headerlink" href="#tipus-de-software" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>De sistema</strong>: OS, drivers.</li>
+<li><strong>D'aplicació</strong>: navegadors, suites.</li>
+<li><strong>De desenvolupament</strong>: IDEs, compiladors, intèrprets.</li>
+</ul>
+<h2 id="cicle-de-vida-resum">Cicle de vida (resum)<a class="headerlink" href="#cicle-de-vida-resum" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Anàlisi</strong> — especificació de requisits.</li>
+<li><strong>Disseny</strong> — arquitectura, dades, interfícies.</li>
+<li><strong>Codificació</strong> — codi font, objectes, compilació/interpretació.</li>
+<li><strong>Proves</strong> — unitàries, integració, sistema.</li>
+<li><strong>Manteniment</strong> — correctiu, perfectiu, evolutiu, adaptatiu.</li>
+</ol>
+<h2 id="models-de-desenvolupament">Models de desenvolupament<a class="headerlink" href="#models-de-desenvolupament" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Cascada</strong>: seqüencial, poc flexible.</li>
+<li><strong>Model en V</strong>: verifica fases amb proves.</li>
+<li><strong>Prototips</strong>: ràpid o evolutiu per validar requisits.</li>
+<li><strong>Espiral</strong>: iteratiu, gestió de riscos.</li>
+<li><strong>Àgils (Scrum, Kanban)</strong>: iteracions curtes, feedback continu.</li>
+</ul>
+<h2 id="recursos-exercicis">Recursos / exercicis<a class="headerlink" href="#recursos-exercicis" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Exercicis de preparació d'entorn i debugging.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Inici"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../ud2-introduccio-git/" class="btn btn-neutral float-right" title="UD2">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../ud2-introduccio-git/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

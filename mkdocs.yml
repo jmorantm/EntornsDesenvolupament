@@ -1,0 +1,21 @@
+site_name: ED — Entorns de Desenvolupament
+site_description: Apunts del mòdul Entorns de Desenvolupament 1DAW
+theme: readthedocs
+
+nav:
+  - Inici: index.md
+  - UD1: ud1-desenvolupament.md
+  - UD2: ud2-introduccio-git.md
+  - UD3: ud3-diagrama-classes.md
+  - UD4: ud4-git-avancat.md
+  - UD5: ud5-prova-programari.md
+  - UD6: ud6-diagrames-uml.md
+  - UD7: ud7-ramificacio.md
+  - UD8: ud8-proves-arquitectura.md
+
+#extra_css:
+ # - css/estils.css    (opcional si vols CSS personalitzat)
+
+markdown_extensions:
+  - toc:
+      permalink: true
