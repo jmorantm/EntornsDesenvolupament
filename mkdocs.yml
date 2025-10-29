@@ -9,7 +9,6 @@ theme:
 plugins:
    - search
    - glightbox
-   - pdf-export
 
 markdown_extensions:
    - admonition

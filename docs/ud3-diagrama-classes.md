@@ -1,8 +1,3 @@
-
----
-
-## `ud3-diagrama-classes.md`
-```markdown
 # UD3 — Diagrama de classes UML
 
 ## Objectius
