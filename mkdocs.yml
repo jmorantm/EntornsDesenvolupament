@@ -5,6 +5,7 @@ theme:
   icon:
     repo: 'fontawesome/brands/github'
   palette:
+    primary: purple
     scheme: default
 plugins:
    - search
