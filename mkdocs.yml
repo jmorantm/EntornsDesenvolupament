@@ -1,1 +1,40 @@
+<<<<<<< HEAD
 site_name: My Docs
+=======
+site_name: Apunts ED
+site_description: Apunts del mòdul Entorns de Desenvolupament 1DAW
+theme: 
+  name: 'material'
+  icon:
+    repo: 'fontawesome/brands/github'
+  palette:
+    primary: purple
+    scheme: default
+    primary: "indigo"
+    accent: "indigo"
+  toggle:
+    icon: material/weather-night
+    name: "Canvia tema"
+    
+plugins:
+  - search
+  - pdf-export
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+nav:
+  - Inici: index.md
+  - UD1 Desenvolupament de programari : ud1-desenvolupament.md
+  - UD2  Introducció a Git: ud2-introduccio-git.md
+  - UD3 Diagrama de classes UML: ud3-diagrama-classes.md
+  - UD4 Git avançat: ud4-git-avancat.md
+  - UD5 Prova de programari: ud5-prova-programari.md
+  - UD6 Diagrames UML: ud6-diagrames-uml.md
+
+extra_css:
+  - css/styles.css
+>>>>>>> 4954adb6f00b8d2cc9b6e95f782845dfb175bf5f
