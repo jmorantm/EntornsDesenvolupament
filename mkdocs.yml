@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-site_name: My Docs
-=======
 site_name: Apunts ED
 site_description: Apunts del mòdul Entorns de Desenvolupament 1DAW
 theme: 
@@ -37,4 +34,3 @@ nav:
 
 extra_css:
   - css/styles.css
->>>>>>> 4954adb6f00b8d2cc9b6e95f782845dfb175bf5f
