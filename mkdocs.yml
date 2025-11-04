@@ -2,6 +2,7 @@ site_name: Apunts ED
 site_description: Apunts del mòdul Entorns de Desenvolupament 1DAW
 theme: 
   name: 'material'
+  language: 'ca'
   icon:
     repo: 'fontawesome/brands/github'
   palette:
@@ -10,18 +11,38 @@ theme:
     primary: "indigo"
     accent: "indigo"
   toggle:
-    icon: material/weather-night
-    name: "Canvia tema"
+        icon: material/weather-sunny
+        name: "Canvia a mode clar"
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy        # botó copiar codi
+    - content.tabs.link
+    - search.highlight  
+    - content.action.print  # botó imprimir
+
+extra:
+  print_page:
+    print_button: true
+    label: "📄 Descarregar PDF"
     
 plugins:
   - search
-  - pdf-export:
-      verbose: true
+  - pdf-export
 
 markdown_extensions:
   - admonition
   - codehilite
-  
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details        # admonitions plegables
+  - pymdownx.highlight:     # numeració línies + copy button
+      anchor_linenums: true
+  - pymdownx.tabbed
+
 nav:
   - Inici: index.md
   - UD1 Desenvolupament de programari : ud1-desenvolupament.md

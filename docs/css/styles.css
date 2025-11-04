@@ -3,3 +3,48 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
 }
+/* ---------- GENERAL ---------- */
+
+/* Estil per als títols principals */
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+/* Espai entre paràgrafs */
+p {
+  margin-bottom: 0.7rem;
+}
+
+/* ---------- NAVBAR / LOGO ---------- */
+
+.md-header {
+  background: linear-gradient(90deg, #673ab7, #3f51b5); /* degradat violeta → índigo */
+}
+
+/* ---------- ADMONITIONS ---------- */
+
+/* Ombra suau per a les admonitions */
+.admonition {
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- CODI ---------- */
+
+/* Rounded corners + fons més suau al bloc de codi */
+.highlight {
+  border-radius: 8px;
+}
+
+/* Numeració més discreta */
+.highlighttable td.linenos {
+  color: #888;
+}
+
+/* ---------- TAULES ---------- */
+
+/* Taules més elegants */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+}
