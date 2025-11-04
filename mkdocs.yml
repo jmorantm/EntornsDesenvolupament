@@ -12,20 +12,20 @@ theme:
     scheme: default
     primary: "indigo"
     accent: "indigo"
+    
   toggle:
     icon: material/weather-night
     name: "Canvia tema"
     
 plugins:
   - search
-  - pdf-export
+  - pdf-export:
+      verbose: true
 
 markdown_extensions:
   - admonition
   - codehilite
-  - pymdownx.superfences
-  - pymdownx.tabbed
-
+  
 nav:
   - Inici: index.md
   - UD1 Desenvolupament de programari : ud1-desenvolupament.md
